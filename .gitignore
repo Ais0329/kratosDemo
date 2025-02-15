@@ -1,0 +1,34 @@
+# Go 相关
+*.exe
+*.dll
+*.so
+*.dylib
+
+# 临时文件和日志
+*.log
+*.tmp
+*.cache
+
+# 构建输出目录
+dist/
+bin/
+out/
+
+# IDE 和编辑器相关
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# 依赖管理相关
+vendor/
+go.sum
+
+# 测试相关
+testdata/
+
+# 环境变量文件
+.env
+
+# 数据库文件
+*.db
